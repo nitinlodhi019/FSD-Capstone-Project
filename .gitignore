@@ -2,3 +2,6 @@ self_driving_car
 data/driving_dataset/
 data/steering_wheel.jpg
 
+saved_models/lane_segmentation/best.pt
+saved_models/lane_segmentation/last.pt
+saved_models/object_detection/yolo11m.pt
