@@ -5,3 +5,5 @@ data/steering_wheel.jpg
 saved_models/lane_segmentation/best.pt
 saved_models/lane_segmentation/last.pt
 saved_models/object_detection/yolo11m.pt
+model_training/steering_angle/__pycache__/driving_data.cpython-39.pyc
+.gitignore
