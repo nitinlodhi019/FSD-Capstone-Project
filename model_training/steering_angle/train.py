@@ -6,7 +6,6 @@ import model
 
 tf.disable_v2_behavior()
 
-
 class DataLogger:
     def __init__(self, logs_path):
         self.logs_path = logs_path
@@ -77,9 +76,12 @@ class Trainer:
 
 
 if __name__ == "__main__":
-    LOGDIR = 'model_training/train_steering_angle/save'
-    LOGS_PATH = 'model_training/train_steering_angle/logs'
-    EPOCHS = 90
+    
+    LOGDIR = 'model_training/train_steering_angle/50epoch/save'
+    LOGS_PATH = 'model_training/train_steering_angle/50epoch/logs'
+    os.makedirs(LOGDIR, exist_ok=True)
+    os.makedirs(LOGS_PATH, exist_ok=True)
+    EPOCHS = 50
     BATCH_SIZE = 100
 
     logger = DataLogger(LOGS_PATH)
@@ -91,5 +93,5 @@ if __name__ == "__main__":
         trainer.close()
 
     print("Run the command line:\n" \
-          "--> tensorboard --logdir=model_training/train_steering_angle/logs " \
+          "--> tensorboard --logdir=model_training/train_steering_angle/50epoch/logs " \
           "\nThen open http://0.0.0.0:6006/ into your web browser")
