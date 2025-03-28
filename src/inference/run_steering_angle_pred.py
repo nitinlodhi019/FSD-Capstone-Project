@@ -128,7 +128,7 @@ class DrivingSimulator:
 if __name__ == "__main__":
     model_path = '../../saved_models/steering_angle/90epoch/model.ckpt'
     data_dir = '../../data/driving_dataset'
-    steering_wheel_image_path = '../../data/steering_wheel_new.jpg'
+    steering_wheel_image_path = '../../data/steering_wheel.jpg'
     
     # IF RUNNING ON WINDOWS
     is_windows = os.name == 'nt' # FALSE OTHERWISE
