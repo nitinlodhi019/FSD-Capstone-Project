@@ -48,9 +48,8 @@ SELF_DRIVING_CAR/
 
 
 # Some Images
-<a href="https://ibb.co/cq6wgNz"><img src="https://i.ibb.co/q6NCyRb/sdc1.png" alt="sdc1" border="0"></a>
-
-<a href="https://ibb.co/SqdZwrG"><img src="https://i.ibb.co/ZyYbzm7/sdc2.png" alt="sdc2" border="0"></a>
+<img width="1512" alt="Screenshot 2024-09-12 at 3 01 44 AM" src="https://i.ibb.co/q6NCyRb/sdc1.png">
+<img width="1512" alt="Screenshot 2024-09-12 at 3 01 44 AM" src="https://i.ibb.co/ZyYbzm7/sdc2.png">
 
 # Run Locally
 - This project requires python 3.9
